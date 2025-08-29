@@ -59,4 +59,4 @@ for (let i = 0; i < copyButtons.length; i++) {
             .then(() => { console.log('Copied to clipboard:', textToCopy); })
             .catch(err => { console.error('Failed to copy:', err); });
     });
-};
+}; 
